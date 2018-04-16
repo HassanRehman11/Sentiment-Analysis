@@ -3,10 +3,10 @@ from textblob import TextBlob
 import matplotlib.pyplot as plt
 from tweepy import OAuthHandler,API,Cursor
 
-ck = 'TSwFRDLymWY6x8nN3nRnIaN4f'
-cs = 'SY7Xg4zLWBuvfm0DIka0o9t8AOBGfgwXh3c8SJ4ggFsEfXbXsW'
-at = '2469634638-a0RETZDdnHjkKmIGNJTt3HCVGLTgb3LCIIxjoOf'
-ats = 'SBH91pzExI0IHqEdSYmmN7Cde5vqTo19HFM46SPKAqqjp'
+ck = 'costumer key'
+cs = 'costumer secret key'
+at = 'access token key'
+ats = 'access token secret key'
 
 auth = OAuthHandler(ck,cs)
 auth.set_access_token(at,ats)
