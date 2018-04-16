@@ -17,7 +17,6 @@ term = "Pakistan"
 noterm = 1000
 tweets = Cursor(api.search, q=term)
 tweets = tweets.items(noterm)
-polarity = 0
 positive = 0
 negative = 0
 neutral = 0
